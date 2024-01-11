@@ -45,11 +45,11 @@ mkdir ~/tmp/hdfs ~/tmp/hdfs/namenode ~/tmp/hdfs/datanode
 echo "<configuration>
  <property>
   <name>dfs.name.dir</name>
-  <value>/home/ubuntu/code/hdfs/namenode/</value>
+  <value>/home/ubuntu/tmp/hdfs/namenode/</value>
  </property>
  <property>
   <name>dfs.data.dir</name>
-  <value>/home/ubuntu/code/hdfs/datanode/</value>
+  <value>/home/ubuntu/tmp/hdfs/datanode/</value>
  </property>
 </configuration>" > etc/hadoop/hdfs-site.xml
 
